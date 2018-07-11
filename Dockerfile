@@ -6,6 +6,10 @@ RUN apk -v --update add \
   groff \
   less \
   mailcap \
+  tar \
+  gzip \
+  ca-certificates \
+  git \
   && \
   pip install --upgrade awscli && \
   apk -v --purge del py-pip && \
